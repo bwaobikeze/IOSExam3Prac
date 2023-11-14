@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9271552B03AB9C00B7CF13 /* exam3practicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9271542B03AB9C00B7CF13 /* exam3practicApp.swift */; };
+		3C9271572B03AB9C00B7CF13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9271562B03AB9C00B7CF13 /* ContentView.swift */; };
+		3C9271592B03AB9E00B7CF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9271582B03AB9E00B7CF13 /* Assets.xcassets */; };
+		3C92715C2B03AB9E00B7CF13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C92715B2B03AB9E00B7CF13 /* Preview Assets.xcassets */; };
+		3C9271622B03AB9E00B7CF13 /* exam3practic Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C9271612B03AB9E00B7CF13 /* exam3practic Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C9271672B03AB9E00B7CF13 /* exam3practicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9271662B03AB9E00B7CF13 /* exam3practicApp.swift */; };
+		3C9271692B03AB9E00B7CF13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9271682B03AB9E00B7CF13 /* ContentView.swift */; };
+		3C92716B2B03ABA000B7CF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C92716A2B03ABA000B7CF13 /* Assets.xcassets */; };
+		3C92716E2B03ABA000B7CF13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C92716D2B03ABA000B7CF13 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9271632B03AB9E00B7CF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9271492B03AB9C00B7CF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9271602B03AB9E00B7CF13;
+			remoteInfo = "exam3practic Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C9271742B03ABA000B7CF13 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C9271622B03AB9E00B7CF13 /* exam3practic Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C9271512B03AB9C00B7CF13 /* exam3practic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exam3practic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9271542B03AB9C00B7CF13 /* exam3practicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exam3practicApp.swift; sourceTree = "<group>"; };
+		3C9271562B03AB9C00B7CF13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C9271582B03AB9E00B7CF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C92715B2B03AB9E00B7CF13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C9271612B03AB9E00B7CF13 /* exam3practic Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exam3practic Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9271662B03AB9E00B7CF13 /* exam3practicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exam3practicApp.swift; sourceTree = "<group>"; };
+		3C9271682B03AB9E00B7CF13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C92716A2B03ABA000B7CF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C92716D2B03ABA000B7CF13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C92714E2B03AB9C00B7CF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C92715E2B03AB9E00B7CF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9271482B03AB9C00B7CF13 = {
+			isa = PBXGroup;
+			children = (
+				3C9271532B03AB9C00B7CF13 /* exam3practic */,
+				3C9271652B03AB9E00B7CF13 /* exam3practic Watch App */,
+				3C9271522B03AB9C00B7CF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9271522B03AB9C00B7CF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9271512B03AB9C00B7CF13 /* exam3practic.app */,
+				3C9271612B03AB9E00B7CF13 /* exam3practic Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9271532B03AB9C00B7CF13 /* exam3practic */ = {
+			isa = PBXGroup;
+			children = (
+				3C9271542B03AB9C00B7CF13 /* exam3practicApp.swift */,
+				3C9271562B03AB9C00B7CF13 /* ContentView.swift */,
+				3C9271582B03AB9E00B7CF13 /* Assets.xcassets */,
+				3C92715A2B03AB9E00B7CF13 /* Preview Content */,
+			);
+			path = exam3practic;
+			sourceTree = "<group>";
+		};
+		3C92715A2B03AB9E00B7CF13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C92715B2B03AB9E00B7CF13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C9271652B03AB9E00B7CF13 /* exam3practic Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3C9271662B03AB9E00B7CF13 /* exam3practicApp.swift */,
+				3C9271682B03AB9E00B7CF13 /* ContentView.swift */,
+				3C92716A2B03ABA000B7CF13 /* Assets.xcassets */,
+				3C92716C2B03ABA000B7CF13 /* Preview Content */,
+			);
+			path = "exam3practic Watch App";
+			sourceTree = "<group>";
+		};
+		3C92716C2B03ABA000B7CF13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C92716D2B03ABA000B7CF13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9271502B03AB9C00B7CF13 /* exam3practic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9271752B03ABA000B7CF13 /* Build configuration list for PBXNativeTarget "exam3practic" */;
+			buildPhases = (
+				3C92714D2B03AB9C00B7CF13 /* Sources */,
+				3C92714E2B03AB9C00B7CF13 /* Frameworks */,
+				3C92714F2B03AB9C00B7CF13 /* Resources */,
+				3C9271742B03ABA000B7CF13 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9271642B03AB9E00B7CF13 /* PBXTargetDependency */,
+			);
+			name = exam3practic;
+			productName = exam3practic;
+			productReference = 3C9271512B03AB9C00B7CF13 /* exam3practic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9271602B03AB9E00B7CF13 /* exam3practic Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9271712B03ABA000B7CF13 /* Build configuration list for PBXNativeTarget "exam3practic Watch App" */;
+			buildPhases = (
+				3C92715D2B03AB9E00B7CF13 /* Sources */,
+				3C92715E2B03AB9E00B7CF13 /* Frameworks */,
+				3C92715F2B03AB9E00B7CF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "exam3practic Watch App";
+			productName = "exam3practic Watch App";
+			productReference = 3C9271612B03AB9E00B7CF13 /* exam3practic Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9271492B03AB9C00B7CF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C9271502B03AB9C00B7CF13 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C9271602B03AB9E00B7CF13 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C92714C2B03AB9C00B7CF13 /* Build configuration list for PBXProject "exam3practic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9271482B03AB9C00B7CF13;
+			productRefGroup = 3C9271522B03AB9C00B7CF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9271502B03AB9C00B7CF13 /* exam3practic */,
+				3C9271602B03AB9E00B7CF13 /* exam3practic Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C92714F2B03AB9C00B7CF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C92715C2B03AB9E00B7CF13 /* Preview Assets.xcassets in Resources */,
+				3C9271592B03AB9E00B7CF13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C92715F2B03AB9E00B7CF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C92716E2B03ABA000B7CF13 /* Preview Assets.xcassets in Resources */,
+				3C92716B2B03ABA000B7CF13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C92714D2B03AB9C00B7CF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9271572B03AB9C00B7CF13 /* ContentView.swift in Sources */,
+				3C9271552B03AB9C00B7CF13 /* exam3practicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C92715D2B03AB9E00B7CF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9271692B03AB9E00B7CF13 /* ContentView.swift in Sources */,
+				3C9271672B03AB9E00B7CF13 /* exam3practicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9271642B03AB9E00B7CF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9271602B03AB9E00B7CF13 /* exam3practic Watch App */;
+			targetProxy = 3C9271632B03AB9E00B7CF13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C92716F2B03ABA000B7CF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9271702B03ABA000B7CF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C9271722B03ABA000B7CF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"exam3practic Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = exam3practic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cpp.exam3practic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.exam3practic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		3C9271732B03ABA000B7CF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"exam3practic Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = exam3practic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cpp.exam3practic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.exam3practic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		3C9271762B03ABA000B7CF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"exam3practic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = exam3practic;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.exam3practic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9271772B03ABA000B7CF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"exam3practic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = exam3practic;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.exam3practic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C92714C2B03AB9C00B7CF13 /* Build configuration list for PBXProject "exam3practic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C92716F2B03ABA000B7CF13 /* Debug */,
+				3C9271702B03ABA000B7CF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9271712B03ABA000B7CF13 /* Build configuration list for PBXNativeTarget "exam3practic Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9271722B03ABA000B7CF13 /* Debug */,
+				3C9271732B03ABA000B7CF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9271752B03ABA000B7CF13 /* Build configuration list for PBXNativeTarget "exam3practic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9271762B03ABA000B7CF13 /* Debug */,
+				3C9271772B03ABA000B7CF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9271492B03AB9C00B7CF13 /* Project object */;
+}
