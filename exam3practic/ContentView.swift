@@ -103,7 +103,7 @@ struct ContentView: View {
                     Image(systemName: "square.and.arrow.down.on.square")
                 }
             }.padding()
-            Slider(value:$curentfilter).disabled(filter == "Original")
+            Slider(value:$curentfilter, in: 0...3, step: 1).disabled(filter == "Original").onChange(of: curentfilter){_ in sliderFunc()}
             
             Spacer()
             
@@ -129,6 +129,30 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
+    }
+    func sliderFunc(){
+        if filter == "Binarized" {
+            binarizeFilter.threshold = Float(curentfilter)
+            guard let outputImage = binarizeFilter.outputImage else { return }
+            if let cgimage = context.createCGImage(outputImage, from: outputImage.extent) {
+                let uiimage = UIImage(cgImage: cgimage)
+                avatarImage = uiimage
+            }
+        }else if filter == "Blur" {
+            blurFilter.radius = Float(curentfilter)
+            guard let outputImage =  blurFilter.outputImage else { return }
+            if let cgimage = context.createCGImage(outputImage, from: outputImage.extent) {
+                let uiimage = UIImage(cgImage: cgimage)
+                avatarImage = uiimage
+            }
+        }else if filter == "Sepia" {
+            sepiaFilter.intensity = Float(curentfilter)
+            guard let outputImage = sepiaFilter.outputImage else { return }
+            if let cgimage = context.createCGImage(outputImage, from: outputImage.extent) {
+                let uiimage = UIImage(cgImage: cgimage)
+                avatarImage = uiimage
+            }
+        }
     }
     
     func applyProcessing() {
